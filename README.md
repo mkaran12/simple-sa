@@ -1,1 +1,3 @@
-creating as simple shell that can work the same as sh
+0x16. C - Simple Shell
+tasks
+Simple_shell
