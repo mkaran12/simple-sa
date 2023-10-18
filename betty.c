@@ -1,3 +1,4 @@
+#include "shell.h"
 #include <stdio.h>
 
 int sumup_numbers(int k, int j) {
