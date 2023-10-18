@@ -3,17 +3,17 @@
 
 int main(void)
 {
-  size_t no =7;
-  char *buf = malloc(sizeof(char) * no);
+  size_t nob =20;
+  char *buffr = malloc(sizeof(char) * nob);
 
   printf("input name");
-  ssize_t chars_read = getline(&buf, &no, stdin);
+  ssize_t charats_read = getline(&buffr, &nob, stdin);
 
-  if (chars_read != -1) {
-      printf("Read %zd characters: %s", chars_read, buf);
+  if (charats_read != -1) {
+      printf("Read %zd characters: %s", charats_read, buffr);
   } else {
       perror("getline");
   }
-  free(buf);
+  free(buffr);
   return 0;
 }
